@@ -112,7 +112,7 @@ describe("Magento Project",()=>{
         cy.get("#password-confirmation").type("@Jeffscott12345")
     })
 
-    it("Sign-Up 4",()=>{
+    it("Sign-Up 12",()=>{
         cy.visit("https://magento.softwaretestingboard.com/")
         cy.contains("Create an Account").click()
         cy.get("#form-validate > .actions-toolbar > div.primary > .action > span").click()
